@@ -1,0 +1,158 @@
+/* CSS Document */
+
+body{
+	font-family:Verdana, Geneva, sans-serif;
+}
+
+div#header {
+	background:#F90;
+	width:100%;
+	height:10%;
+}
+
+div#nav_bar > a{
+	background:#FC6;
+	width:100px;
+	height:100px;
+	padding: 10px;
+	font-size:5vw;
+	text-decoration:none;
+	color:#000;	
+	
+}
+div#nav_bar > a:hover{
+	background: #F30;
+	color:white;
+}
+
+div#table_zero > a{
+	float: left;
+	margin:25px;
+	width:100px;
+	border-radius:50%;
+	height:100px; 
+	padding:10px;
+	background:green;
+	text-decoration:none;
+}
+
+div#table_zero > a:hover{
+	float: left; 
+	background:#0F0;
+}
+
+div#table_full > a{
+	float: left;
+	margin:25px;
+	border-radius:50%;
+	width:100px; 
+	height:100px; 
+	padding:10px;
+	background:#900;
+	text-decoration:none;
+}
+
+div#table_full > a:hover{
+	float: left;  
+	background:red;
+}
+
+div#cat_menu > a{
+	background:#0FF;
+	padding:20px;
+	text-decoration:none;
+	color:#F00;
+}
+
+div#cat_menu > a:hover{
+	background:#006;
+	color:#FFF;
+}
+
+div#item_menu{
+	border:#999 groove;
+	padding:5px;
+}
+div#item_menu > a{
+	text-decoration:none;
+	color:blue;
+}
+div#item_menu > a:onclick{
+	color:red;
+}
+div#rb_menu > a{
+	background:#F30;
+	color:#FFF;
+	padding:10px;
+	border-radius:5px;
+	font-size:16px;
+	text-decoration:none;
+}
+
+div#rb_menu > a:hover{
+	background:#C30;	
+}
+#panel, #flip {
+    padding: 5px;
+    text-align: center;
+    background-color: #333;
+    border: solid 1px #c3c3c3;
+	font-size:30px;
+}
+#flip{
+	padding:15px;
+}
+#panel {
+	padding:25px;
+    display: none;
+}
+div#panel > a{
+	color:#FFF;
+	text-decoration:none;
+	margin:20px;
+}
+div#panel > a:hover{
+	background: #000;
+
+}
+
+div#addon_list > a{
+	float: left;
+	margin:25px;
+	border-radius:15px;
+	height:auto;
+	min-width:100px;
+	padding:10px;
+	background:blue;
+	text-decoration:none;
+}
+
+div#addon_list > a:hover{
+	float: left;  
+	background:black;
+}
+div#sum_but{
+	font-size:25px;
+}
+.panel-default{padding: 15px;}
+.form-group{margin-top: 15px;}
+.panel-heading{background-color: #40A2BE !important; color: #000 !important;}
+#loading{display: none;}
+#searchid
+{
+    width:500px;
+    border:solid 1px #000;
+    padding:10px;
+    font-size:14px;
+}
+#result
+{
+	display: none;
+    width:500px;
+    padding:10px;
+    border-top:0px;
+    border:1px #CCC solid;
+    background-color: white;
+}
+.show{font-size:20px;height: 50px;padding: 5px;}
+.show:hover{background:#40A2BE;color:#000;cursor:pointer;}

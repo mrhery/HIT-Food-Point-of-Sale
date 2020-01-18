@@ -1,0 +1,258 @@
+
+body{
+	font-family:Verdana, Geneva, sans-serif;
+}
+div#header {
+	width: 100%;
+	height:90px;
+	background:#F60;
+}
+
+div#header > strong {
+	color: #FFF;
+	font-size:35px;
+}
+
+div#table_zero > a{
+	float: left;
+	margin:25px;
+	width:100px;
+	border-radius:50%;
+	height:100px; 
+	padding:10px;
+	background:green;
+	text-decoration:none;
+}
+
+div#table_zero > a:hover{
+	float: left; 
+	background:#0F0;
+}
+
+div#table_full > a{
+	float: left;
+	margin:25px;
+	border-radius:50%;
+	width:100px; 
+	height:100px; 
+	padding:10px;
+	background:#900;
+	text-decoration:none;
+}
+
+div#table_full > a:hover{
+	float: left;  
+	background:red;
+}
+
+
+div#right_bar {
+	background:#fff;
+	padding: 10px;
+}
+
+div#rb_menu > a{
+	background:#F30;
+	color:#FFF;
+	padding:10px;
+	border-radius:5px;
+	font-size:16px;
+	text-decoration:none;
+}
+
+div#rb_menu > a:hover{
+	background:#C30;	
+}
+
+div#menudb_inactive {
+	width:100%; 
+}
+
+div#menudb_inactive > a{
+	float: left;
+	width:95%;
+	margin-left:5px;
+	padding:5px; 
+	background: #F90;
+	border-radius:5px;
+	text-decoration:none;
+	margin-top:5px;
+}
+
+div#menudb_inactive > a:hover{
+	background: #F60;
+}
+
+div#menudb_active > a{
+	float: left;
+	width:95%;
+	margin-left:5px;
+	padding:5px; 
+	background: #F30;
+	border-radius:5px;
+	text-decoration:none;
+	margin-top:5px;
+}
+
+div#menudb_active > a:hover{
+	background: #F60;
+}
+.tbl tr {background-color: #FC0;}
+.tbl tr:hover {background-color: #F60;}
+
+div#delete_button > a{
+	color:blue;
+}
+div#delete_button > a:hover{
+	color:#003;
+	text-decoration:none;
+}
+
+div#type_label > a{
+	float: left;
+	margin:10px;
+	border-radius:10px;
+	width:230px; 
+	height:330px; 
+	padding:10px;
+	background:#FC0;
+	text-decoration:none;
+}
+
+div#type_label > a:hover{
+	float: left;  
+	background:#F90;
+}
+
+div#overview_waiteress > a{
+	float: left;
+	margin:25px;
+	border-radius:15px;
+	width:200px; 
+	color:#fff;
+	height:100px; 
+	padding:10px;
+	background:#090;
+	text-decoration:none;
+}
+
+div#overview_waiteress > a:hover{
+	float: left;  
+	background:#060;
+}
+
+div#overview_sales > a{
+	float: left;
+	margin:25px;
+	border-radius:15px;
+	color:#fff;
+	width:200px; 
+	height:100px; 
+	padding:10px;
+	background:#F00;
+	text-decoration:none;
+}
+#chart{
+  height:400px;
+}
+
+
+div#overview_sales > a:hover{
+	float: left;  
+	background:#900;
+}
+
+div#overview_cash > a{
+	float: left;
+	margin:25px;
+	border-radius:15px;
+	width:200px; 
+	height:100px; 
+	padding:10px;
+	background:#06F;
+	text-decoration:none;
+	color:#fff;
+}
+
+div#overview_cash > a:hover{
+	float: left;  
+	background:#00F;
+}
+
+div#overview_item > a{
+	float: left;
+	margin:25px;
+	border-radius:15px;
+	width:200px; 
+	height:100px; 
+	padding:10px;
+	background:#F90;
+	text-decoration:none;
+	color:#FFF;
+}
+
+div#overview_item > a:hover{
+	float: left;  
+	background:#FC0;
+}
+
+div#overview_promo > a{
+	float: left;
+	margin:25px;
+	border-radius:15px;
+	width:200px; 
+	height:100px; 
+	padding:10px;
+	background:#cc0099;
+	text-decoration:none;
+	color:#FFF;
+}
+
+div#overview_promo > a:hover{
+	float: left;  
+	background:#990073;
+}
+
+div#type_label_menu {
+	float: left;
+	margin:10px;
+	width:230px; 
+	height:auto; 
+	padding:10px;
+	background:#FC0;
+	text-decoration:none;
+}
+
+div#menu_list > a{
+	color:#00F;
+}
+div#menu_list > a:hover{
+	text-decoration:none;	
+}
+
+div#rb_menu > button{
+	background:#06F;
+	color:#fff;
+	padding:10px;
+	font-family:Verdana, Geneva, sans-serif;
+}
+
+div#rb_menu > button:hover{
+	background:#03F;
+}
+div#alert{
+	padding:5px;
+	background:blue;
+	
+}
+div#alert:hover{
+	background:red;
+}
+div#alert > a{
+	text-decoration:none;
+	color: #fff;
+}
+div#alert > a:hover{
+	color:white;
+	background:red;
+}
